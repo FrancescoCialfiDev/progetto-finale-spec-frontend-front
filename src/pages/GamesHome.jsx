@@ -5,11 +5,22 @@ import { motion } from "framer-motion" // Libreria di animazioni per React.
 import { TableComponent } from "../components/TableComponent"
 import { Modal } from "../components/Modal"
 import { createPortal } from "react-dom"
+import { useCallback } from "react"
 
 
 // VARIABILI DI AMBIENTE
 const baseURL = import.meta.env.VITE_BASE_URL // Importiamo la nostra variabile di ambiente ( Url Base = "http://localhost:3001" ) Garantisce sicurezza dei dati.
 const gameEndPoint = import.meta.env.VITE_GAMES_ENDPOINT // ( Endpoint = "/videogames" ) Per accedere alla url che fornisce i videogiochi in formato JSON
+
+function debounce(callBack, delay) {
+    let timer;
+    return (value) => {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+            callBack(value)
+        }, delay);
+    }
+}
 
 export const GamesHome = ({ overlayTxt = "Show Details", navigate = true, onSelectGame }) => {
 
@@ -24,6 +35,7 @@ export const GamesHome = ({ overlayTxt = "Show Details", navigate = true, onSele
     const [isShow, setIsShow] = useState(false)
     const [gameId, setGameId] = useState(null)
 
+
     useEffect(() => {
         async function handleSearchTitle() {
             try {
@@ -36,6 +48,10 @@ export const GamesHome = ({ overlayTxt = "Show Details", navigate = true, onSele
         }
         handleSearchTitle()
     }, [queryTitle, categoryValue])
+
+    const handeChange = useCallback(debounce((event) => {
+        setQueryTitle(event.target.value)
+    }, 500), [])
 
     function handleSort(field) {
         if (field === orderBy) {
@@ -71,8 +87,7 @@ export const GamesHome = ({ overlayTxt = "Show Details", navigate = true, onSele
                     type="text"
                     placeholder="Search a game"
                     className=" p-2 mb-2 bg-dark border-1 border-white text-white"
-                    value={queryTitle}
-                    onChange={event => setQueryTitle(event.target.value)}
+                    onChange={handeChange}
                 />
 
                 {/* Select per la selezione delle categorie */}
@@ -83,7 +98,7 @@ export const GamesHome = ({ overlayTxt = "Show Details", navigate = true, onSele
                     style={{ backgroundColor: "#202932" }}
                     className="p-2 mb-2 ms-2 rounded-2 border-2 border-primary text-white"
                     value={categoryValue}
-                    onChange={(event) => setCategoryValue(event.target.value)}
+                    onChange={(event) => { setCategoryValue(event.target.value) }}
                 >
                     <option defaultValue value="">Select a category</option>
                     {[...new Set(games.map((game) => game.category))].map((category, index) => <option key={index} value={category}>{category}</option>)}
