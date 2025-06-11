@@ -1,11 +1,10 @@
-import { useContext, useEffect } from "react"
+import { useContext } from "react"
 import { GlobalContext } from "../context/GlobalContext"
 import { TableComponent } from "../components/TableComponent"
 
 export const WishListPage = () => {
 
     const { favourites, setFavourites } = useContext(GlobalContext)
-
 
     return (
         <>
