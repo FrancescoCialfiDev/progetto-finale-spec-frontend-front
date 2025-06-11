@@ -14,12 +14,12 @@ function App() {
     <GlobalProvider>                                                  {/* GlobalProvider fornisce uno stato globale a tutti i componenti figli */}
       <BrowserRouter>                                                 {/* BrowserRouter abilita il sistema di routing basato su URL */}
         <Routes>                                                      {/* Routes è il contenitore delle varie Route */}
-          <Route path="/" element={<DefaultLayout />}>
-            <Route path="/games">                                     {/* Route con layout condiviso tra più pagine */}
-              <Route index element={<GamesHome />} />
-              <Route path=":id" element={<GameDetailsPage />} />
-              <Route path="compare" element={<ComparePages />} />
-              <Route path="wishList" element={<WishListPage />} />
+          <Route path="/" element={<DefaultLayout />}>                {/* Layout default per tutte le rotte figlie */}
+            <Route path="/games">                                     {/* Route main per i giochi */}
+              <Route index element={<GamesHome />} />                 {/* Route Indice di /games */}
+              <Route path=":id" element={<GameDetailsPage />} />      {/* Route con parametro id dinamico */}
+              <Route path="compare" element={<ComparePages />} />     {/* Route per la comparazione dei videogiochi */}
+              <Route path="wishList" element={<WishListPage />} />    {/* Route per la lista dei desideri / preferiti */}
             </Route>
           </Route>
         </Routes>

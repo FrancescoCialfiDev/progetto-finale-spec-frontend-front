@@ -1,5 +1,13 @@
 import { Link } from "react-router-dom"
-export const Modal = ({ title, subTitle, isShow, onConfirm, onClose, gameId }) => {
+import { useContext } from "react"
+import { GlobalContext } from "../context/GlobalContext"
+import { useNavigate } from "react-router-dom"
+
+export const Modal = ({ title, subTitle, isShow, onClose, gameId }) => {
+
+
+    const { games, setFavourites } = useContext(GlobalContext)
+    const navigate = useNavigate()
 
 
     return (
@@ -23,6 +31,7 @@ export const Modal = ({ title, subTitle, isShow, onConfirm, onClose, gameId }) =
                     </button>
 
                     <button
+                        onClick={() => { setFavourites(prev => [...prev, ...games.filter(game => gameId === game.id)]); alert("Card inserita correttamente"); navigate("/games/wishList") }}
                         className="button bg-warning text-white p-2 rounded-2 border-0"
                     > Add to WhisList
                     </button>
@@ -35,6 +44,6 @@ export const Modal = ({ title, subTitle, isShow, onConfirm, onClose, gameId }) =
 
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

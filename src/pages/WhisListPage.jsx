@@ -1,12 +1,18 @@
 import { useContext, useState } from "react"
 import { GlobalContext } from "../context/GlobalContext"
-import { h1 } from "framer-motion/client"
+import { TableComponent } from "../components/TableComponent"
+
 export const WishListPage = () => {
 
-    const { games } = useContext(GlobalContext)
-    const [favourites, setFavourites] = useState([])
+    const { games, favourites } = useContext(GlobalContext)
+
 
     return (
-        <h1>Sono Whish List</h1>
+        <>
+            <div className="d-flex flex-column w-75 text-center">
+                <h1 className="text-white pb-5">Whish List</h1>
+                <TableComponent arr={favourites} />
+            </div>
+        </>
     )
 }
