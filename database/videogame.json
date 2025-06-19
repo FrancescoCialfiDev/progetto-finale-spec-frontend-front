@@ -1,0 +1,769 @@
+[
+  {
+    "title": "The Witcher 3: Wild Hunt",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "CD Projekt Red",
+    "releaseYear": 2015,
+    "userRating": 9.5,
+    "multiplayer": false,
+    "price": 29.99,
+    "averagePlaytime": 70,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 18,
+    "difficulty": "Hard",
+    "gameModes": [
+      "Campaign"
+    ],
+    "category": "RPG",
+    "id": 1,
+    "createdAt": "2025-06-03T13:32:52.349Z",
+    "updatedAt": "2025-06-03T13:32:52.349Z"
+  },
+  {
+    "title": "Call of Duty: Modern Warfare II",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "Infinity Ward",
+    "releaseYear": 2022,
+    "userRating": 8.2,
+    "multiplayer": true,
+    "price": 69.99,
+    "averagePlaytime": 20,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 18,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Campaign",
+      "Online",
+      "Co-op"
+    ],
+    "category": "Action",
+    "id": 2,
+    "createdAt": "2025-06-03T13:45:34.445Z",
+    "updatedAt": "2025-06-03T13:45:34.445Z"
+  },
+  {
+    "title": "Minecraft",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox",
+      "Switch"
+    ],
+    "developer": "Mojang",
+    "releaseYear": 2011,
+    "userRating": 9.3,
+    "multiplayer": true,
+    "price": 26.95,
+    "averagePlaytime": 100,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 7,
+    "difficulty": "Easy",
+    "gameModes": [
+      "Campaign",
+      "Online",
+      "Co-op"
+    ],
+    "category": "Sandbox",
+    "id": 3,
+    "createdAt": "2025-06-03T13:45:43.114Z",
+    "updatedAt": "2025-06-03T13:45:43.114Z"
+  },
+  {
+    "title": "Elden Ring",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "FromSoftware",
+    "releaseYear": 2022,
+    "userRating": 9,
+    "multiplayer": true,
+    "price": 59.99,
+    "averagePlaytime": 60,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES",
+      "JP"
+    ],
+    "pegi": 16,
+    "difficulty": "Hard",
+    "gameModes": [
+      "Campaign",
+      "Online",
+      "Co-op"
+    ],
+    "category": "RPG",
+    "id": 4,
+    "createdAt": "2025-06-03T13:45:51.789Z",
+    "updatedAt": "2025-06-03T13:45:51.789Z"
+  },
+  {
+    "title": "FIFA 23",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox",
+      "Switch"
+    ],
+    "developer": "EA Sports",
+    "releaseYear": 2022,
+    "userRating": 7.1,
+    "multiplayer": true,
+    "price": 69.99,
+    "averagePlaytime": 30,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 3,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Online",
+      "Co-op"
+    ],
+    "category": "Sports",
+    "id": 5,
+    "createdAt": "2025-06-03T13:46:00.186Z",
+    "updatedAt": "2025-06-03T13:46:00.186Z"
+  },
+  {
+    "title": "God of War Ragnarök",
+    "platforms": [
+      "PS5"
+    ],
+    "developer": "Santa Monica Studio",
+    "releaseYear": 2022,
+    "userRating": 9.6,
+    "multiplayer": false,
+    "price": 79.99,
+    "averagePlaytime": 50,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 18,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Campaign"
+    ],
+    "category": "Action",
+    "id": 6,
+    "createdAt": "2025-06-03T13:46:08.014Z",
+    "updatedAt": "2025-06-03T13:46:08.014Z"
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "Rockstar Games",
+    "releaseYear": 2018,
+    "userRating": 9.7,
+    "multiplayer": true,
+    "price": 39.99,
+    "averagePlaytime": 80,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 18,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Campaign",
+      "Online"
+    ],
+    "category": "Action",
+    "id": 7,
+    "createdAt": "2025-06-03T13:46:15.218Z",
+    "updatedAt": "2025-06-03T13:46:15.218Z"
+  },
+  {
+    "title": "Hogwarts Legacy",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox",
+      "Switch"
+    ],
+    "developer": "Avalanche Software",
+    "releaseYear": 2023,
+    "userRating": 8.4,
+    "multiplayer": false,
+    "price": 59.99,
+    "averagePlaytime": 35,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 12,
+    "difficulty": "Easy",
+    "gameModes": [
+      "Campaign"
+    ],
+    "category": "Adventure",
+    "id": 8,
+    "createdAt": "2025-06-03T13:46:23.534Z",
+    "updatedAt": "2025-06-03T13:46:23.534Z"
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "CD Projekt Red",
+    "releaseYear": 2020,
+    "userRating": 7.9,
+    "multiplayer": false,
+    "price": 49.99,
+    "averagePlaytime": 50,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES",
+      "JP"
+    ],
+    "pegi": 18,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Campaign"
+    ],
+    "category": "RPG",
+    "id": 9,
+    "createdAt": "2025-06-03T13:46:31.097Z",
+    "updatedAt": "2025-06-03T13:46:31.097Z"
+  },
+  {
+    "title": "Animal Crossing: New Horizons",
+    "platforms": [
+      "Switch"
+    ],
+    "developer": "Nintendo",
+    "releaseYear": 2020,
+    "userRating": 8.8,
+    "multiplayer": true,
+    "price": 59.99,
+    "averagePlaytime": 80,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 3,
+    "difficulty": "Easy",
+    "gameModes": [
+      "Campaign",
+      "Online"
+    ],
+    "category": "Simulation",
+    "id": 10,
+    "createdAt": "2025-06-03T13:46:37.853Z",
+    "updatedAt": "2025-06-03T13:46:37.853Z"
+  },
+  {
+    "title": "Fortnite",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox",
+      "Switch"
+    ],
+    "developer": "Epic Games",
+    "releaseYear": 2017,
+    "userRating": 7.5,
+    "multiplayer": true,
+    "price": 0,
+    "averagePlaytime": 60,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 12,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Online",
+      "Co-op"
+    ],
+    "category": "Battle Royale",
+    "id": 11,
+    "createdAt": "2025-06-03T13:46:44.282Z",
+    "updatedAt": "2025-06-03T13:46:44.282Z"
+  },
+  {
+    "title": "Among Us",
+    "platforms": [
+      "PC",
+      "Switch",
+      "Mobile"
+    ],
+    "developer": "Innersloth",
+    "releaseYear": 2018,
+    "userRating": 8,
+    "multiplayer": true,
+    "price": 3.99,
+    "averagePlaytime": 10,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 7,
+    "difficulty": "Easy",
+    "gameModes": [
+      "Online",
+      "Co-op"
+    ],
+    "category": "Party",
+    "id": 12,
+    "createdAt": "2025-06-03T13:46:51.308Z",
+    "updatedAt": "2025-06-03T13:46:51.308Z"
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "Rockstar Games",
+    "releaseYear": 2013,
+    "userRating": 9.4,
+    "multiplayer": true,
+    "price": 29.99,
+    "averagePlaytime": 70,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 18,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Campaign",
+      "Online"
+    ],
+    "category": "Action",
+    "id": 13,
+    "createdAt": "2025-06-03T13:46:57.245Z",
+    "updatedAt": "2025-06-03T13:46:57.245Z"
+  },
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "platforms": [
+      "Switch"
+    ],
+    "developer": "Nintendo",
+    "releaseYear": 2017,
+    "userRating": 9.8,
+    "multiplayer": false,
+    "price": 59.99,
+    "averagePlaytime": 60,
+    "languages": [
+      "EN",
+      "FR",
+      "DE",
+      "ES",
+      "JP"
+    ],
+    "pegi": 12,
+    "difficulty": "Hard",
+    "gameModes": [
+      "Campaign"
+    ],
+    "category": "Adventure",
+    "id": 14,
+    "createdAt": "2025-06-03T13:47:03.992Z",
+    "updatedAt": "2025-06-03T13:47:03.992Z"
+  },
+  {
+    "title": "League of Legends",
+    "platforms": [
+      "PC"
+    ],
+    "developer": "Riot Games",
+    "releaseYear": 2009,
+    "userRating": 8.1,
+    "multiplayer": true,
+    "price": 0,
+    "averagePlaytime": 200,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 12,
+    "difficulty": "Hard",
+    "gameModes": [
+      "Online"
+    ],
+    "category": "MOBA",
+    "id": 15,
+    "createdAt": "2025-06-03T13:47:10.595Z",
+    "updatedAt": "2025-06-03T13:47:10.595Z"
+  },
+  {
+    "title": "Shadowfall: Eclipse",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "Nebula Forge",
+    "releaseYear": 2024,
+    "userRating": 8.9,
+    "multiplayer": false,
+    "price": 59.99,
+    "averagePlaytime": 55,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 16,
+    "difficulty": "Hard",
+    "gameModes": [
+      "Campaign"
+    ],
+    "category": "RPG",
+    "id": 16,
+    "createdAt": "2025-06-11T16:07:29.910Z",
+    "updatedAt": "2025-06-11T16:07:29.910Z"
+  },
+  {
+    "title": "Starborne: Frontier",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "Orion Interactive",
+    "releaseYear": 2023,
+    "userRating": 8.6,
+    "multiplayer": true,
+    "price": 69.99,
+    "averagePlaytime": 40,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 12,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Campaign",
+      "Online",
+      "Co-op"
+    ],
+    "category": "Sci-Fi",
+    "id": 17,
+    "createdAt": "2025-06-11T16:07:37.830Z",
+    "updatedAt": "2025-06-11T16:07:37.830Z"
+  },
+  {
+    "title": "Kingdoms of Nymeria",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "developer": "Silver Banner Studios",
+    "releaseYear": 2022,
+    "userRating": 9.1,
+    "multiplayer": false,
+    "price": 49.99,
+    "averagePlaytime": 70,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 18,
+    "difficulty": "Hard",
+    "gameModes": [
+      "Campaign"
+    ],
+    "category": "RPG",
+    "id": 18,
+    "createdAt": "2025-06-11T16:07:45.350Z",
+    "updatedAt": "2025-06-11T16:07:45.350Z"
+  },
+  {
+    "title": "Turbo Clash X",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox",
+      "Switch"
+    ],
+    "developer": "Nitrobyte",
+    "releaseYear": 2023,
+    "userRating": 7.8,
+    "multiplayer": true,
+    "price": 39.99,
+    "averagePlaytime": 25,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 7,
+    "difficulty": "Easy",
+    "gameModes": [
+      "Online",
+      "Co-op"
+    ],
+    "category": "Racing",
+    "id": 19,
+    "createdAt": "2025-06-11T16:07:51.898Z",
+    "updatedAt": "2025-06-11T16:07:51.898Z"
+  },
+  {
+    "title": "Project Nexus",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "Quantum Loop",
+    "releaseYear": 2024,
+    "userRating": 8.5,
+    "multiplayer": true,
+    "price": 59.99,
+    "averagePlaytime": 50,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 18,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Campaign",
+      "Online"
+    ],
+    "category": "Action",
+    "id": 20,
+    "createdAt": "2025-06-11T16:07:59.539Z",
+    "updatedAt": "2025-06-11T16:07:59.539Z"
+  },
+  {
+    "title": "Pixel Garden",
+    "platforms": [
+      "PC",
+      "Switch"
+    ],
+    "developer": "DreamSeed",
+    "releaseYear": 2021,
+    "userRating": 8.7,
+    "multiplayer": true,
+    "price": 19.99,
+    "averagePlaytime": 90,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 3,
+    "difficulty": "Easy",
+    "gameModes": [
+      "Campaign",
+      "Online"
+    ],
+    "category": "Simulation",
+    "id": 21,
+    "createdAt": "2025-06-11T16:08:09.670Z",
+    "updatedAt": "2025-06-11T16:08:09.670Z"
+  },
+  {
+    "title": "Mecha Wars: Rebellion",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "Titan Axis",
+    "releaseYear": 2023,
+    "userRating": 8.3,
+    "multiplayer": true,
+    "price": 59.99,
+    "averagePlaytime": 45,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 16,
+    "difficulty": "Hard",
+    "gameModes": [
+      "Campaign",
+      "Online",
+      "Co-op"
+    ],
+    "category": "Action",
+    "id": 22,
+    "createdAt": "2025-06-11T16:08:15.949Z",
+    "updatedAt": "2025-06-11T16:08:15.949Z"
+  },
+  {
+    "title": "Legends of Etheria",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox"
+    ],
+    "developer": "Mythic Realms",
+    "releaseYear": 2022,
+    "userRating": 9.2,
+    "multiplayer": false,
+    "price": 69.99,
+    "averagePlaytime": 65,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 16,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Campaign"
+    ],
+    "category": "Adventure",
+    "id": 23,
+    "createdAt": "2025-06-11T16:08:22.532Z",
+    "updatedAt": "2025-06-11T16:08:22.532Z"
+  },
+  {
+    "title": "Neon Skirmish",
+    "platforms": [
+      "PC",
+      "PS5",
+      "Xbox",
+      "Switch"
+    ],
+    "developer": "Glowbyte Games",
+    "releaseYear": 2024,
+    "userRating": 7.6,
+    "multiplayer": true,
+    "price": 0,
+    "averagePlaytime": 35,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 12,
+    "difficulty": "Medium",
+    "gameModes": [
+      "Online",
+      "Co-op"
+    ],
+    "category": "Battle Royale",
+    "id": 24,
+    "createdAt": "2025-06-11T16:08:29.654Z",
+    "updatedAt": "2025-06-11T16:08:29.654Z"
+  },
+  {
+    "title": "Whispers in the Fog",
+    "platforms": [
+      "PC",
+      "PS5"
+    ],
+    "developer": "Silent Mirror",
+    "releaseYear": 2024,
+    "userRating": 8.8,
+    "multiplayer": false,
+    "price": 44.99,
+    "averagePlaytime": 30,
+    "languages": [
+      "EN",
+      "IT",
+      "FR",
+      "DE",
+      "ES"
+    ],
+    "pegi": 18,
+    "difficulty": "Hard",
+    "gameModes": [
+      "Campaign"
+    ],
+    "category": "Horror",
+    "id": 25,
+    "createdAt": "2025-06-11T16:08:35.503Z",
+    "updatedAt": "2025-06-11T16:08:35.503Z"
+  }
+]
