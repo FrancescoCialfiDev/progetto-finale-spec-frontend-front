@@ -139,7 +139,7 @@ export const GamesHome = ({ overlayTxt = "Show Details", navigate = true, onSele
                 onClick={(id) => { setGameId(id); setIsShow(true); }} // Onclick sarà una funzione che accetta un id
             />
 
-            {/* Modale per la gestione delle azioni */}
+            {/* Modale */}
             {createPortal(<Modal
                 title={"Select an operation"}
                 subTitle={"Are you sure you want to proceed?"}
