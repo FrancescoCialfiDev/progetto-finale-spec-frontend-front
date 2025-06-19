@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
 import { GlobalProvider } from "./context/GlobalContext.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { GamesHome } from "./pages/gamesHome.jsx";
+import { GamesHome } from "./pages/GamesHome.jsx";
 import { GameDetailsPage } from "./pages/GameDetailsPage.jsx";
 import { DefaultLayout } from "./layout/DefaultLayout.jsx";
 import { ComparePages } from "./pages/ComparePages.jsx";

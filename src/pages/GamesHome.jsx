@@ -95,7 +95,7 @@ export const GamesHome = ({ overlayTxt = "Show Details", navigate = true, onSele
                     initial={{ opacity: 0 }} transition={{ delay: 0.5, duration: 1.5 }} animate={{ opacity: 1 }}
                     name="category"
                     id="category"
-                    style={{ backgroundColor: "#202932" }}
+                    style={{ backgroundColor: "#202932" }} w
                     className="p-2 mb-2 ms-2 rounded-2 border-2 border-primary text-white"
                     value={categoryValue}
                     onChange={(event) => { setCategoryValue(event.target.value) }}
@@ -136,9 +136,10 @@ export const GamesHome = ({ overlayTxt = "Show Details", navigate = true, onSele
                 navigate={navigate}
                 arr={sortedGames}
                 onSelectGame={onSelectGame}
-                onClick={(id) => { setGameId(id); setIsShow(true); }}
+                onClick={(id) => { setGameId(id); setIsShow(true); }} // Onclick sarà una funzione che accetta un id
             />
 
+            {/* Modale per la gestione delle azioni */}
             {createPortal(<Modal
                 title={"Select an operation"}
                 subTitle={"Are you sure you want to proceed?"}

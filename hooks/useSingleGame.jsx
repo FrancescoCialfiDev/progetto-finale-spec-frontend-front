@@ -3,9 +3,9 @@ const baseURL = import.meta.env.VITE_BASE_URL;
 const gamesEndPoint = import.meta.env.VITE_GAMES_ENDPOINT;
 
 export function useSingleGame(id) {
-    const [game, setGame] = useState(null);
-    const [img, setImg] = useState("");
-    const [loading, setLoading] = useState(false);
+    const [game, setGame] = useState(null); // Stato per singolo gioco
+    const [img, setImg] = useState(""); //Stato per l'immgaine
+    const [loading, setLoading] = useState(false); // Stato per la gestione del loader
 
     useEffect(() => {
         if (!id) return;
@@ -23,7 +23,8 @@ export function useSingleGame(id) {
                     );
                     if (response2.ok) {
                         const data2 = await response2.json();
-                        setImg(data2.results?.[0]?.background_image || "");
+                        console.log(data2)
+                        setImg(data2.results[0]?.background_image || ""); // Optional chaining operator
                     }
                 }
             } catch (error) {

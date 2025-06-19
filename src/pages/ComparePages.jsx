@@ -1,5 +1,5 @@
 
-import { GamesHome } from "./gamesHome"
+import { GamesHome } from "./GamesHome"
 import { useState } from "react"
 import { Card } from "../components/Card"
 import { useSingleGame } from "../../hooks/useSingleGame"

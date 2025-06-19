@@ -1,12 +1,6 @@
 import { motion } from "framer-motion";
 
-export const TableComponent = ({
-    overlayTxt,
-    arr,
-    navigate,
-    onSelectGame,
-    onClick
-}) => {
+export const TableComponent = ({ overlayTxt, arr, navigate, onSelectGame, onClick }) => {
     return (
         <motion.div
             style={{ maxHeight: "600px", overflowY: "auto", width: "100%" }}
@@ -14,15 +8,17 @@ export const TableComponent = ({
             transition={{ duration: 0.5 }}
             animate={{ opacity: 1, x: 0, y: 0 }}
         >
-            <table
-                className="w-100 overflow-scroll"
-            >
+            <table className="w-100 overflow-scroll">
+
+                {/* Testa della tabella */}
                 <thead className="position-sticky top-0 start-0 z-2">
                     <tr>
                         <th>Title</th>
                         <th>Category</th>
                     </tr>
                 </thead>
+
+                {/* Corpo della tabella */}
                 <tbody>
                     {arr.map(game => (
                         <tr key={game.id}>
